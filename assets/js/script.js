@@ -13,3 +13,16 @@
   eDisplayDate.innerHTML = NowDate;
 })();
 
+//Code
+const workDay = {
+  "8 AM": "",
+  "9 AM": "",
+  "10 AM": "",
+  "11 AM": "",
+  "Noon": "",
+  "1 PM": "",
+  "2 PM": "",
+  "3 PM": "",
+  "4 PM": "",
+  "5 PM": "",
+};
