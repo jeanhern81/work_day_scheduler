@@ -1,28 +1,67 @@
 //Moment.js
 //date math
-(function() {
-  // instantiate a moment object
-  var NowMoment = moment();
-  // instantiate a JavaScript Date object
-  var NowDate = new Date();
-  // display value of moment object in #displayMoment div
-  var eDisplayMoment = document.getElementById('displayMoment');
-  eDisplayMoment.innerHTML = NowMoment;
-  // display value of Date object in #displayJsDate div
-  var eDisplayDate = document.getElementById('displayJsDate');
-  eDisplayDate.innerHTML = NowDate;
-})();
 
 //Code
-const workDay = {
-  "8 AM": "",
-  "9 AM": "",
-  "10 AM": "",
-  "11 AM": "",
-  "Noon": "",
-  "1 PM": "",
-  "2 PM": "",
-  "3 PM": "",
-  "4 PM": "",
-  "5 PM": "",
-};
+var hour8 = $("#8");
+var hour9 = $("#9");
+var hour10 = $("#10");
+var hour11 = $("#11");
+var hour12 = $("#12");
+var hour1 = $("#1");
+var hour2 = $("#2");
+var hour3 = $("#3");
+var hour4 = $("#4");
+var hour5 = $("#5");
+var time = moment();
+
+function setPlanner()
+{
+    
+    $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
+
+    $(".time-block").each(function()
+    {
+        var id = $(this).attr("id");
+        var schedule = localStorage.getItem(id);
+
+        if (schedule !== null)
+        {
+            $(this).children(".schedule").val(schedule);
+        }
+    });
+}
+
+setPlanner();
+var saveBtn = $(".saveBtn");
+
+saveBtn.on("click", function()
+{
+    var time = $(this).parent().attr("id");
+    var schedule = $(this).siblings(".schedule").val();
+
+    localStorage.setItem(time, schedule);
+});
+
+function pastPresentFuture()
+{
+    hour = time.hours();
+    $(".time-block").each(function()
+    {
+        var thisHour = parseInt($(this).attr("id"));
+        
+        if (thisHour > hour)
+        {
+            $(this).addClass("future")
+        }
+        else if (thisHour === hour)
+        {
+            $(this).addClass("present");
+        }
+        else
+        {
+            $(this).addClass("past");
+        }
+    })
+}
+
+pastPresentFuture();
