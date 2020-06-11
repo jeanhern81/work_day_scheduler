@@ -8,6 +8,11 @@ Date: June 8, 2020
 Website: https://jeanhern81.github.io/work_day_scheduler/
 
 ---
+Desktop View
+![Screenshot](screenshot.JPG)
+Mobile Device
+![Screenshot](screenshot.JPG)
+---
 This date stamped Work Day Scheduler will help keep track of your daily task with easy to read color coding that indicate what's coming up next.  Here's how to use it.
 
 * Type in your task on desired hour and click save. 
@@ -20,13 +25,13 @@ This date stamped Work Day Scheduler will help keep track of your daily task wit
 ---
 References:
 
-[Sitepoint](https://www.sitepoint.com/managing-dates-times-using-moment-js/) 
-[w3Schools](https://www.w3schools.com/jsref/jsref_sethours.asp)
+How to use Momements.js
+    - [Sitepoint](https://www.sitepoint.com/managing-dates-times-using-moment-js/) 
+
+    - [W3Schools](https://www.w3schools.com/jsref/jsref_sethours.asp)
 
 
 --- 
-Licensing:
-
 MIT License
 
 Copyright (c) [2020] [Jeanette Hernandez]
