@@ -10,8 +10,7 @@ Website: https://jeanhern81.github.io/work_day_scheduler/
 ---
 Desktop View
 ![Screenshot](./assets/images/screenshot.JPG)
-Mobile Device
-![Screenshot](./assets/images/mobilescreen.JPG)
+
 ---
 This date stamped Work Day Scheduler will help keep track of your daily task with easy to read color coding that indicate what's coming up next.  Here's how to use it.
 
