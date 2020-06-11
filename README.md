@@ -9,9 +9,9 @@ Website: https://jeanhern81.github.io/work_day_scheduler/
 
 ---
 Desktop View
-![Screenshot](screenshot.JPG)
+![Screenshot](./assets/images/screenshot.JPG)
 Mobile Device
-![Screenshot](screenshot.JPG)
+![Screenshot](./assets/images/screenshot.JPG)
 ---
 This date stamped Work Day Scheduler will help keep track of your daily task with easy to read color coding that indicate what's coming up next.  Here's how to use it.
 
@@ -25,12 +25,10 @@ This date stamped Work Day Scheduler will help keep track of your daily task wit
 ---
 References:
 
-How to use Momements.js
 <a href="https://www.sitepoint.com/managing-dates-times-using-moment-js/">Sitepoint - Moments Explination/Tutorial</a>
 
 <a href="https://www.w3schools.com/jsref/jsref_sethours.asp">Moments Explination/Tutorial</a>
 
-jQuery Selectors
 <a href="https://www.w3schools.com/jquery/jquery_selectors.asp">W3Schools - jQuery Selectors Cheatcheet</a>
 
 --- 
