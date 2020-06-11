@@ -53,3 +53,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+---
+Techonologies Used:
+HTML, CSS, Bootstrap, JavaScript, jQuery, Moments.js, Font Awesome
+
+---
+Test
+    * Code Validation through W3C Code Validators to check for syntax errors on the  HTML and CSS docs.
+
