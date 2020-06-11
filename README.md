@@ -26,10 +26,12 @@ This date stamped Work Day Scheduler will help keep track of your daily task wit
 References:
 
 How to use Momements.js
-    - [Sitepoint](https://www.sitepoint.com/managing-dates-times-using-moment-js/) 
+<a href="https://www.sitepoint.com/managing-dates-times-using-moment-js/">Sitepoint - Moments Explination/Tutorial</a>
 
-    - [W3Schools](https://www.w3schools.com/jsref/jsref_sethours.asp)
+<a href="https://www.w3schools.com/jsref/jsref_sethours.asp">Moments Explination/Tutorial</a>
 
+jQuery Selectors
+<a href="https://www.w3schools.com/jquery/jquery_selectors.asp">W3Schools - jQuery Selectors Cheatcheet</a>
 
 --- 
 MIT License
