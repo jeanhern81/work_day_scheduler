@@ -15,7 +15,7 @@ Desktop View
 This date stamped Work Day Scheduler will help keep track of your daily task with easy to read color coding that indicate what's coming up next.  Here's how to use it.
 
 * Type in your task on desired hour and click save. 
-* The days are color coded to help you see with a quick glance what's coming up. 
+* The hours are color coded to help you see with a quick glance what's coming up. 
     - gray indicates the hours that have passed,
     - red indicates that current hour you're on,
     - green indicates what's to come.
@@ -59,5 +59,5 @@ HTML, CSS, Bootstrap, JavaScript, jQuery, Moments.js, Font Awesome
 
 ---
 Test:
-    Code Validation through W3C Code Validators to check for syntax errors on the  HTML and CSS docs.
+Code Validation through W3C Code Validators to check for syntax errors on the  HTML and CSS docs.
 
