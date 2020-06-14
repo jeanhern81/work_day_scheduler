@@ -17,7 +17,7 @@ var time = moment();
 function setPlanner()
 {
     
-    $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
+    $("#currentDay").text(moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
 
     $(".time-block").each(function()
     {
