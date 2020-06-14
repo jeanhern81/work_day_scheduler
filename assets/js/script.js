@@ -1,7 +1,5 @@
-//Moment.js
-//date math
 
-//Code
+//Variables along with a variable for moments
 var hour8 = $("#8");
 var hour9 = $("#9");
 var hour10 = $("#10");
