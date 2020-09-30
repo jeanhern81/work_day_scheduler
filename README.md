@@ -1,17 +1,5 @@
----
-Title: Work Day Scheduler
+# Work Day Scheduler
 
-Created By: Jeanette Hernandez
-
-Date: June 8, 2020
-
-Website: https://jeanhern81.github.io/work_day_scheduler/
-
----
-Desktop View
-![Screenshot](./assets/images/screenshot.JPG)
-
----
 This date stamped Work Day Scheduler will help keep track of your daily task with easy to read color coding that indicate what's coming up next.  Here's how to use it.
 
 * Type in your task on desired hour and click save. 
@@ -21,8 +9,17 @@ This date stamped Work Day Scheduler will help keep track of your daily task wit
     - green indicates what's to come.
 * To delete the information simply put your curser on the hour, and delete the text, and click save. It's ready to use. 
 
+ 
 ---
-References:
+## Demo 
+
+![Screenshot](./assets/images/screenshot.JPG)
+
+Website: https://jeanhern81.github.io/work_day_scheduler/
+---
+
+---
+## References:
 
 <a href="https://www.sitepoint.com/managing-dates-times-using-moment-js/">Sitepoint - Moments Explination/Tutorial</a>
 
@@ -31,7 +28,7 @@ References:
 <a href="https://www.w3schools.com/jquery/jquery_selectors.asp">W3Schools - jQuery Selectors Cheatcheet</a>
 
 --- 
-MIT License
+## MIT License
 
 Copyright (c) [2020] [Jeanette Hernandez]
 
@@ -54,10 +51,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---
-Techonologies Used:
+## Techonologies Used:
 HTML, CSS, Bootstrap, JavaScript, jQuery, Moments.js, Font Awesome
 
 ---
-Test:
+## Test:
 Code Validation through W3C Code Validators to check for syntax errors on the  HTML and CSS docs.
 
