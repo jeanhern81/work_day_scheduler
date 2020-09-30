@@ -15,8 +15,9 @@ This date stamped Work Day Scheduler will help keep track of your daily task wit
 
 ![Screenshot](./assets/images/screenshot.JPG)
 
+
 Website: https://jeanhern81.github.io/work_day_scheduler/
----
+
 
 ---
 ## References:
